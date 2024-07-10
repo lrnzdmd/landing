@@ -44,12 +44,18 @@ body {
 }
 
 .content {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
     background-color: #1F2937;
     display:flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 2vw;
+}
+
+.imagebox {
+    display:flex;
 }
 
 .imagebox img {
@@ -73,13 +79,20 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
     border-style: none;
-
-
     background-color: #3882F6;
     border-radius: 5px;
-
 }
-
-.imagebox {
+ .lightbgcontent {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
     display:flex;
-}
+    justify-content: center;
+ }
+ .lightbgcontent h2 {
+    margin:0;
+    padding:0;
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: 750;
+
+ }
