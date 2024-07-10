@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-    row-gap: 2w;
+    row-gap: 1w;
     column-gap: 30vw;
     display:flex;
     justify-content: center;
@@ -21,7 +21,7 @@ body {
 .header img {
     align-self: center;
     flex-shrink: 0;
-    height:3rem;
+    height:3.5rem;
 }
 
 .header h3 {
@@ -64,6 +64,7 @@ body {
 .textboxbutton {
     flex-basis: 50vw;
     
+    
 }
 .textboxbutton h1 , p {
     color: #F9FAF8;
@@ -79,6 +80,7 @@ body {
     border-style: none;
     background-color: #3882F6;
     border-radius: 5px;
+    margin-top:1rem;
 }
  .lightbgcontent {
     padding-top: 5vw;
@@ -101,6 +103,7 @@ body {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    gap: 2vw;
  }
 
  .card {
@@ -142,7 +145,7 @@ body {
 
  }
  .quotecontainer h2 {
-    margin-top: 0px;
+    margin-top: 1rem;
     align-self: flex-end;
  }
 
@@ -171,10 +174,10 @@ body {
     color: #F9FAF8;
     font-weight: 600;
     background-color: #3882F6;
-    padding-top: 0.5vw;
-    padding-bottom: 0.5vw;
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 
  }
  .footer {
