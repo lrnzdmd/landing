@@ -146,3 +146,35 @@ body {
     margin-top: 0px;
     align-self: flex-end;
  }
+
+ .calltoaction {
+    color:#F9FAF8;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-self: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding:6vw;
+    gap: 1rem;
+ }
+
+
+ .textside h3 , p {
+    margin:0.1rem;
+    
+ }
+ .calltoaction button {
+    border: 0.15rem solid #F9FAF8;
+    border-radius: 5px;
+    color: #F9FAF8;
+    font-weight: 600;
+    background-color: #3882F6;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+ }
